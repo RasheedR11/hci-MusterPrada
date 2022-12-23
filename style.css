@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.Header-Titel{
+    color: #fff;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+nav ul li i {
+    font-size: 20px;
+}
